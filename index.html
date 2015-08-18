@@ -10,6 +10,19 @@
  			margin: 0;
  			text-align: center;
  			width: 100%;
+ 			color: black;
+ 			font-family: arial, sans-serif;
+ 		}
+ 		h1 {
+ 			margin-bottom: 0.1em;
+ 		}
+ 		h2 {
+ 			margin: 0.1em 0;
+ 		}
+ 		.info-box {
+ 			padding: 0.5em;
+ 			max-width: 50em;
+ 			margin: 0 auto;
  		}
  		#defaultCanvas {
  			display: inline-block;
@@ -22,6 +35,14 @@
 </head>
 
 <body>
+<div id="canvas-container">
+</div>
+<div class="info-box">
+	<h1>Node Compressor</h1>
+	<h2>Made with p5.js</h2>
+	<p>Click to the right of the canvas to decrease the number of nodes (and increase their size)
+	Click to the left of the canvas to increase the number of nodes (and decrease their size) - be careful as too many will slow your processor down :]</p>
+</div>
 <script language="javascript" src="p5.min.js"></script>
 <script language="javascript" src="sketch.js"></script>
 </body>

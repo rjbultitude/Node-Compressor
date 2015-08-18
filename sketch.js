@@ -83,6 +83,7 @@ function createShapes(spacing) {
 
 function setup() {
 	myCanvas = createCanvas(800,600);
+	myCanvas.parent('canvas-container');
 	background(0,0,0);
 	createShapes(15);
 

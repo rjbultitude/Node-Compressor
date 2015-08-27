@@ -1,7 +1,7 @@
 # Node Compressor
 
 ##Live demo
-[Live demo on github pages](https://github.com/rjbultitude/Node-Compressor.git)
+[Live demo on github pages](http://rjbultitude.github.io/Node-Compressor/)
 
 ## Info
 Click to the right of the canvas to decrease the number of nodes (and increase their size)

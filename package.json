@@ -1,0 +1,22 @@
+{
+  "name": "node-compressor",
+  "version": "1.0.0",
+  "description": "##Live demo [Live demo on github pages](http://rjbultitude.github.io/Node-Compressor/)",
+  "main": "sketch.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjbultitude/Node-Compressor.git"
+  },
+  "author": "Richard Bultitude",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjbultitude/Node-Compressor/issues"
+  },
+  "homepage": "https://github.com/rjbultitude/Node-Compressor#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
